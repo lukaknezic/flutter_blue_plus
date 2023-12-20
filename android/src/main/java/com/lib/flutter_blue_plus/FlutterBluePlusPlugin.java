@@ -1553,7 +1553,6 @@ public class FlutterBluePlusPlugin implements
             if (counter == 0) {
                 log(LogLevel.DEBUG, "[FBP] waiting for bonding to complete...");
             }
-            try{Thread.sleep(50);}catch(Exception e){}
             counter++;
         }
         if (counter > 0) {
